@@ -1,7 +1,7 @@
 {
   "name": "phoenix_board",
   "version": "1.0.0",
-  "description": "To start your Phoenix app:",
+  "description": "Trello clone in Elixir and Phoenix.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -12,6 +12,10 @@
   "author": "chansuke",
   "license": "ISC",
   "private": true,
+  "engines": {
+    "node": "5.11.0",
+    "npm": "3.8.6"
+  },
   "devDependencies": {
     "babel-core": "^6.3.26",
     "babel-loader": "^6.2.0",
@@ -26,7 +30,7 @@
     "node-sass": "^3.4.2",
     "sass-loader": "^3.1.2",
     "style-loader": "^0.13.0",
-    "webpack": "^1.13.1"
+    "webpack": "^1.12.11"
   },
   "dependencies": {
     "bourbon": "^4.2.6",
